@@ -1,0 +1,155 @@
+body {
+  font-family: sans-serif;
+}
+
+.largeNum {
+  font-size: 40pt;
+}
+#rainbowWrap{
+  z-index: 1;
+  width: 100%;
+}
+
+#rainbowSliceRed{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10%;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  float: left;
+  width: 20%;
+  height: 10%;
+  color: #FFFFFF;
+  background-color: #FF4F45;
+  transition-duration: 1s;
+}
+#rainbowSliceOrange{
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  left:20%;
+  float: left;
+  width: 20%;
+  height: 10%;
+  color: #FFFFFF;
+  background-color: #FF8854;
+  transition-duration: 1s;
+}
+#rainbowSliceYellow{
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  left:40%;
+  float: left;
+  width: 20%;
+  height: 10%;
+  color: #FFFFFF;
+  background-color: #FFF35D;
+  transition-duration: 1s;
+}
+#rainbowSliceGreen{
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  left:60%;
+  float: left;
+  width: 20%;
+  height: 10%;
+  color: #FFFFFF;
+  background-color: #7DB247;
+  transition-duration: 1s;
+}
+#rainbowSliceBlue{
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  left:80%;
+  float: left;
+  width: 20%;
+  height: 10%;
+  color: #FFFFFF;
+  background-color: #85A9FF;
+  transition-duration: 1s;
+}
+
+#rainbowSliceBlue:hover, #rainbowSliceOrange:hover, #rainbowSliceYellow:hover, #rainbowSliceGreen:hover {
+  height: 100%;
+  width: 50%;
+  transition-duration: 1s;
+}
+
+#rainbowSliceRed:hover{
+  height: 100%;
+  width: 50%;
+  transition-duration: 1s;
+}
+
+#rainbowSliceRed:hover ~ #wordPanel1{
+  color: #000000;
+  background-color: #85A9FF;
+}
+
+#wordsWrap{
+  z-index: 2;
+  width: 100%;
+}
+
+#wordPanel1{
+  z-index: 5;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  float: left;
+  width: 20%;
+  height: 90%;
+  color: #FFFFFF;
+}
+
+#wordPanel2{
+  z-index: 4;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  float: left;
+  width: 20%;
+  height: 90%;
+  color: #FFFFFF;
+}
+
+#wordPanel3{
+  z-index: 3;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  float: left;
+  width: 20%;
+  height: 90%;
+  color: #FFFFFF;
+}
+
+#wordPanel4{
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  float: left;
+  width: 20%;
+  height: 90%;
+  color: #FFFFFF;
+}
+
+#wordPanel5{
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  float: left;
+  width: 20%;
+  height: 90%;
+  color: #FFFFFF;
+}
