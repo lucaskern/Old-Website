@@ -6,14 +6,15 @@ body {
   font-size: 40pt;
 }
 #rainbowWrap{
+
   z-index: 1;
   width: 100%;
+  height: 10%;
 }
 
 #rainbowSliceRed{
   text-align: center;
-  vertical-align: middle;
-  line-height: 10%;
+  vertical-align:bottom;
   position: absolute;
   top: 0px;
   left: 0%;
@@ -37,7 +38,7 @@ body {
   background-color: #FF8854;
   transition-duration: 1s;
 }
-#rainbowSliceYellow{
+#rainbowSliceGreen{
   text-align: center;
   vertical-align: middle;
   position: absolute;
@@ -47,10 +48,10 @@ body {
   width: 20%;
   height: 10%;
   color: #FFFFFF;
-  background-color: #FFF35D;
+  background-color: #C3FF85;
   transition-duration: 1s;
 }
-#rainbowSliceGreen{
+#rainbowSliceBlue{
   text-align: center;
   vertical-align: middle;
   position: absolute;
@@ -60,10 +61,10 @@ body {
   width: 20%;
   height: 10%;
   color: #FFFFFF;
-  background-color: #7DB247;
+  background-color: #5EA3B2;
   transition-duration: 1s;
 }
-#rainbowSliceBlue{
+#rainbowSlicePurple{
   text-align: center;
   vertical-align: middle;
   position: absolute;
@@ -73,25 +74,13 @@ body {
   width: 20%;
   height: 10%;
   color: #FFFFFF;
-  background-color: #85A9FF;
+  background-color: #8C81FF;
   transition-duration: 1s;
 }
 
-#rainbowSliceBlue:hover, #rainbowSliceOrange:hover, #rainbowSliceYellow:hover, #rainbowSliceGreen:hover {
+#rainbowSlicePurple:hover,  #rainbowSliceRed:hover, #rainbowSliceOrange:hover, #rainbowSliceGreen:hover, #rainbowSliceBlue:hover {
   height: 100%;
-  width: 50%;
   transition-duration: 1s;
-}
-
-#rainbowSliceRed:hover{
-  height: 100%;
-  width: 50%;
-  transition-duration: 1s;
-}
-
-#rainbowSliceRed:hover ~ #wordPanel1{
-  color: #000000;
-  background-color: #85A9FF;
 }
 
 #wordsWrap{
